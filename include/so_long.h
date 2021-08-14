@@ -2,6 +2,7 @@
 # define SO_LONG_H
 
 #include <mlx.h>
+#include <stdlib.h>
 
 typedef struct	s_solong
 {
