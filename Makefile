@@ -1,9 +1,9 @@
 CC	 	= gcc
-INCLUDE	= -I./minilibx
+INCLUDE	= -I./include/minilibx
 
 WARNING	= -Wall -Wextra -Werror
-MLXFLAGS = -L./minilibx -lmlx -framework OpenGL -framework AppKit
+MLXFLAGS = -L./include/minilibx -lmlx -framework OpenGL -framework AppKit
 
 all:
-	$(CC) $(INCLUDE) $(MLXFLAGS) source/main.c
+	$(CC) $(INCLUDE) $(MLXFLAGS) source/so_long.c
 	./a.out
